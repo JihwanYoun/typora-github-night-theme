@@ -573,8 +573,8 @@ code {
 }*/
 
 .file-tree-node {
-     padding-top: 2px;
- }
+    padding-top: 2px;
+}
 
 #write pre.md-meta-block {
     background-color: var(--item-hover-bg-color);
@@ -1239,7 +1239,7 @@ body::-moz-selection {
 #write ul>li {
     /*  color: #f0b752;
 */
-    font-size:  1.2rem !important;
+    font-size: 1.2rem !important;
     font-weight: 700;
 }
 
@@ -2068,6 +2068,11 @@ div.cm-s-inner[lang="ruby"] .cm-atom {
 
 .typora-export .footnote-line a {
     color: #58a6ff;
+}
+
+.md-fences {
+
+    font-family: Consolas
 }
 
 @include-when-export url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap);
